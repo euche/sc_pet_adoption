@@ -86,7 +86,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                // Get Current Date
+                
                 final Calendar c = Calendar.getInstance();
                 dYear = c.get(Calendar.YEAR);
                 dMonth = c.get(Calendar.MONTH);
@@ -160,11 +160,11 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-        //cast the button to boolean.
+
         boolean  checked = ((RadioButton) v).isChecked();
 
 
-        // Check which radio button was clicked
+
         switch(v.getId()) {
             case R.id.yes_button:
                 if (checked)
@@ -184,7 +184,7 @@ public class MainActivity extends AppCompatActivity {
 
             case R.id.no_button:
                 if (checked)
-                    // no
+
 
                     yardResponse.setVisibility(View.GONE);
 
